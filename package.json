@@ -1,0 +1,30 @@
+{
+  "name": "yoyo",
+  "displayName": "YoYo Dark Theme",
+  "description": "A YoYo Dark Theme for Noobs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "publisher": "brogang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amresh9/yoyo"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "resources/icons/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "YoYo Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yoytheme-color-fulldark.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.11.0"
+  }
+}
